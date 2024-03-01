@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sina Wolper</title>
+    <title>Contact - Sina Wolper</title>
     <link rel="icon" type="image/x-icon" href="./img/logo.svg">
     <script src="js/tota11y.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,15 +36,26 @@
         </nav>
     </header>
     <main>
-        <div class="profile">
-            <div>
-                <img src="./img/Biopass_1sq.png" alt="Sina Wolper Portrait" class="profile-portrait">
-            </div>
-            <div>
-                <h1>Hello Word!</h1>
-                <h2>My name is Sina Wolper.</h2>
-                <p>I am a <span>web</span> developer from Portland, Oregon.</p>
-                <p>Check out some of my code <button class="git-button">Click Here</button>
+        <div>
+            <h1>Contact</h1>
+            <div class="page-container">
+                <div>
+                    Portland, Oregon<br>
+                    Tel <a href="tel:+1 503 975 5440">+1 503 975 5440</a><br>
+                    <a href="mailto:sina@thewolpers.com">sina@thewolpers.com</a><br>
+                    <a href="mailto:sina@thewolpers.com">Contact Me!</a>
+                </div>
+                <form action="" method="post" id="contact-form">
+                    <label class="standard-label">Email: </label>
+                    <input type="email" required>
+                  
+                    <label class="standard-label">Telephone: </label>
+                    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                  
+                    <label class="standard-label">Message: </label>
+                    <textarea required maxlength="240"></textarea>
+                    <input class="msg-button" type="submit" value="Submit"></br>
+                  </form>
             </div>
         </div>
     </main>

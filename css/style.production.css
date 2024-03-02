@@ -391,6 +391,10 @@ footer {
     .grid-container h3 {
         font-size: 1em;
     }
+
+    .svg-img {
+        display: none;
+    }
 }
 
 @media all and (max-width: 640px) {
@@ -406,5 +410,23 @@ footer {
 
     .header-logo{
         width: 32px;
+    }
+
+    .header-left h1 {
+        display: none;
+    }
+
+    .profile {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .page-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }

@@ -312,3 +312,68 @@ footer {
         flex-direction: column;
     }
 }
+
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.project-links {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.project-screenshot {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 5px;
+    margin: 2em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-section {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: var(--dark4);
+    border-radius: 5px;
+}
+
+.project-section h2 {
+    color: var(--blue1);
+    margin-bottom: 1em;
+}
+
+.project-section ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.project-section li {
+    margin: 0.5em 0;
+    position: relative;
+}
+
+.project-section li:before {
+    content: "•";
+    color: var(--green);
+    font-weight: bold;
+    position: absolute;
+    left: -1em;
+}
+
+@media all and (max-width: 640px) {
+    .project-container {
+        padding: 1em;
+    }
+    
+    .project-links {
+        flex-direction: column;
+    }
+    
+    .project-section {
+        padding: 0.8em;
+    }
+}

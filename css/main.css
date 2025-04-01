@@ -327,11 +327,13 @@ footer {
 }
 
 .project-screenshot {
-    width: 100%;
-    max-width: 800px;
+    width: 80%;
+    max-width: 600px;
     border-radius: 5px;
-    margin: 2em 0;
+    margin: 2em auto;
+    padding: 1em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
 }
 
 .project-section {

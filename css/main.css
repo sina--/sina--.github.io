@@ -86,7 +86,6 @@ a:hover {
 }
 
 .header-logo{
-    filter: invert(97%) sepia(3%) saturate(1140%) hue-rotate(187deg) brightness(101%) contrast(91%);
     width: 32px;
 }
 

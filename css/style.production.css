@@ -87,9 +87,9 @@ a {
     cursor: pointer;
 }
 
-a:hover {
+/* a:hover {
     color: #bf616a;
-}
+} */
 
 .header-left {
     display: -webkit-box;
@@ -99,8 +99,6 @@ a:hover {
 }
 
 .header-logo{
-    -webkit-filter: invert(97%) sepia(3%) saturate(1140%) hue-rotate(187deg) brightness(101%) contrast(91%);
-            filter: invert(97%) sepia(3%) saturate(1140%) hue-rotate(187deg) brightness(101%) contrast(91%);
     width: 32px;
 }
 

@@ -87,7 +87,7 @@ a:hover {
 
 .header-logo{
     filter: invert(97%) sepia(3%) saturate(1140%) hue-rotate(187deg) brightness(101%) contrast(91%);
-    width: 48px;
+    width: 32px;
 }
 
 .profile {
@@ -327,10 +327,10 @@ footer {
 }
 
 .project-screenshot {
-    width: 80%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 400px;
     border-radius: 5px;
-    margin: 2em auto;
+    margin: 3em auto;
     padding: 1em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: block;
